@@ -1,0 +1,74 @@
+1.Membuat array dengan numpy
+a = [1, 2, 3]
+b = [4, 5, 6]
+
+hasil = sum(a) + sum(b)
+print(hasil)
+
+2.Membaut nama
+nama = input("Masukkan Nama Anda: ")
+nim = input("Masukkan NIM Anda: ")
+
+print("Hello world")
+print("Nama Saya:", nama)
+print("NIM Saya:", nim)
+
+3.5>2
+if 5>2:
+  print("Five is greater than two!")
+
+4.X=5
+x = 5
+y = "John"
+print(x)
+print(y)
+
+5.x=4
+x = 4
+x = "Sally"
+print(x)
+
+6.getFirst
+def getFirst(mylist):
+  return mylist[0]
+
+7.my List
+myList = [10, 20, 30, 40]
+
+firstElement = myList[0]
+secondElement = myList[1]
+
+print("Elemen pertama:", firstElement)
+print("Elemen kedua:", secondElement)
+
+8.getlast
+def getlast2(list):
+  size = len(list)
+  print(f"size {size}")
+  return list[size-1]
+
+9.getSum
+def getSum(set1, set2):
+    sum1 = sum(set1)
+    sum2 = sum(set2)
+    return sum1 + sum2
+
+set1 = [1, 2, 3]
+set2 = [4, 5, 6]
+hasil_jumlah = getSum(set1, set2)
+print("Hasil penjumlahan kedua himpunan:", hasil_jumlah)
+
+10.
+def getDifference(set1, set2):
+    if len(set1) != len(set2):
+        raise ValueError("Kedua himpunan harus memiliki panjang yang sama")
+    result = []
+    for i in range(len(set1)):
+        result.append(set1[i] - set2[i])
+    
+    return result
+
+set1 = [10, 20, 30]
+set2 = [1, 2, 3]
+hasil_kurang = getDifference(set1, set2)
+print("Hasil pengurangan elemen-elemen kedua himpunan:", hasil_kurang)
