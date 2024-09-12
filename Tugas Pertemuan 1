@@ -1,0 +1,67 @@
+KPK
+def lcm(a, b):
+    greater = max(a, b)
+    while True:
+        if greater % a == 0 and greater % b == 0:
+            lcm_value = greater
+            break
+        greater += 1
+    
+    return lcm_value
+
+a = 3
+b = 4
+lcm_value = lcm(a, b)
+print("KPK dari", a, "dan", b, "adalah", lcm_value)
+
+LUAS SEGITIGA
+a = 25
+t = 30
+
+L = 0.5 * a * t
+print("Luas segita nya adalah", L)
+
+VOLUME TABUNG
+a = 25
+t = 30
+
+L = 0.5 * a * t
+print("Luas segita nya adalah", L)
+
+TUKAR
+x = "Apel"  x berada di Piring 1
+y = "Kiwi"  y berada di Piring 2
+
+temp - x
+x = y
+y = temp
+print("Piring 1 berisi", x)
+print("Piring 2 berisi", y)
+
+VOLUME KERUCUT
+π = 3.14
+d = 5
+t = 4
+r = d/2
+V = (1/3) * π * r * r * t
+print("Volume kerucut adalah", V)
+
+LUAS JAJAR GENJANG
+p = 5
+t = 3
+L = p * t
+print("Luas Jajar Genjang adalah", L)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
