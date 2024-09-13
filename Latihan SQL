@@ -1,0 +1,36 @@
+SQL 1
+CREATE TABLE Employee (
+    id_emp VARCHAR(5),
+    name_emp VARCHAR(50),
+    age INT
+);
+INSERT INTO Employee (id_emp, name_emp, age)
+VALUES ('123', 'Budi', 21);
+INSERT INTO Employee (id_emp, name_emp, age)
+VALUES ('124', 'Siti', 25);
+
+SELECT * FROM Employee;
+
+SQL 2
+UPDATE Employee
+SET id_emp = '234', name_emp = 'Dani', age = 23
+WHERE id_emp = '123' AND name_emp = 'Budi' AND age = 21
+LIMIT 1;
+
+SQL 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
